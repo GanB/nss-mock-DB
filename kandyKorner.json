@@ -46,22 +46,16 @@
   "customers": [
     {
       "id": 1,
-      "address": "2802 Zula Locks",
-      "phoneNumber": "852-837-9713",
       "userId": 2,
       "loyaltyNumber": "KK-1-993029"
     },
     {
       "id": 2,
-      "address": "56849 Fadel Gateway",
-      "phoneNumber": "202-244-7090",
       "userId": 1,
       "loyaltyNumber": "KK-1-993029"
     },
     {
       "id": 3,
-      "address": "7346 Ritchie Road",
-      "phoneNumber": "(507) 720-1157",
       "userId": 3,
       "loyaltyNumber": "KK-1-993029"
     }
@@ -70,20 +64,23 @@
     {
       "id": 1,
       "startDate": "2020-03-25",
-      "rate": 72.47,
-      "userId": 4
+      "hourlyPayRate": 72.47,
+      "userId": 4,
+      "locationId": ""
     },
     {
       "id": 2,
       "startDate": "2020-02-15",
-      "rate": 97.39,
-      "userId": 5
+      "hourlyPayRate": 97.39,
+      "userId": 5,
+      "locationId": ""
     },
     {
       "id": 3,
       "startDate": "2019-05-02",
-      "rate": 29.45,
-      "userId": 6
+      "hourlyPayRate": 29.45,
+      "userId": 6,
+      "locationId": ""
     }
   ],
   "locations": [
@@ -91,7 +88,44 @@
     { "id": 2, "address": "4500 Wendover Ave Raleigh NC 27604", "sqft": 1400 },
     { "id": 3, "address": "453 PeachTree St Nashville TN 37323", "sqft": 1600 }
   ],
-  "products": [{}],
-  "productTypes": [{}],
+  "products": [
+    { "id": 1, "productName": "Hard Candy", "productTypeId": 1, "price": 4.99 },
+    {
+      "id": 2,
+      "productName": "Chewing Gum",
+      "productTypeId": 2,
+      "price": 2.99
+    },
+    {
+      "id": 3,
+      "productName": "Chocolate Covered Strawberries",
+      "productTypeId": 3,
+      "price": 4.99
+    },
+    {
+      "id": 4,
+      "productName": "Dark Chocolate",
+      "productTypeId": 3,
+      "price": 6.99
+    },
+    {
+      "id": 5,
+      "productName": "Soda",
+      "productTypeId": 4,
+      "price": 1.99
+    },
+    {
+      "id": 6,
+      "productName": "Chocolate Milk Shake",
+      "productTypeId": 4,
+      "price": 2.99
+    }
+  ],
+  "productTypes": [
+    { "id": 1, "category": "Hard Candy" },
+    { "id": 2, "category": "Gum" },
+    { "id": 3, "category": "Chocolate" },
+    { "id": 4, "category": "Sodas" }
+  ],
   "purchases": [{}]
 }
