@@ -41,6 +41,12 @@
       "fullName": "Jeremy Bakker",
       "isStaff": true,
       "id": 7
+    },
+    {
+      "email": "jason@gmail.com",
+      "fullName": "Jason ",
+      "isStaff": true,
+      "id": 8
     }
   ],
   "customers": [
@@ -84,12 +90,29 @@
     }
   ],
   "locations": [
-    { "id": 1, "address": "123 Main St High Point NC 27265", "sqft": 1000 },
-    { "id": 2, "address": "4500 Wendover Ave Raleigh NC 27604", "sqft": 1400 },
-    { "id": 3, "address": "453 PeachTree St Nashville TN 37323", "sqft": 1600 }
+    {
+      "id": 1,
+      "address": "123 Main St High Point NC 27265",
+      "sqft": 1000
+    },
+    {
+      "id": 2,
+      "address": "4500 Wendover Ave Raleigh NC 27604",
+      "sqft": 1400
+    },
+    {
+      "id": 3,
+      "address": "453 PeachTree St Nashville TN 37323",
+      "sqft": 1600
+    }
   ],
   "products": [
-    { "id": 1, "productName": "Hard Candy", "productTypeId": 1, "price": 4.99 },
+    {
+      "id": 1,
+      "productName": "Hard Candy",
+      "productTypeId": 1,
+      "price": 4.99
+    },
     {
       "id": 2,
       "productName": "Chewing Gum",
@@ -119,13 +142,63 @@
       "productName": "Chocolate Milk Shake",
       "productTypeId": 4,
       "price": 2.99
+    },
+    {
+      "productName": "choco candy",
+      "productTypeId": 1,
+      "price": 4.99,
+      "id": 7
+    },
+    {
+      "productName": "test candy",
+      "productTypeId": 1,
+      "price": 3.99,
+      "id": 8
+    },
+    {
+      "productName": "test candy 2",
+      "productTypeId": 1,
+      "price": 4.99,
+      "id": 9
+    },
+    {
+      "productName": "test candy",
+      "productTypeId": 3,
+      "price": 5.99,
+      "id": 10
+    },
+    {
+      "productName": "coke",
+      "productTypeId": 4,
+      "price": 1.99,
+      "id": 11
+    },
+    {
+      "productName": "test candy",
+      "productTypeId": 3,
+      "price": 5.99,
+      "id": 12
     }
   ],
   "productTypes": [
-    { "id": 1, "category": "Hard Candy" },
-    { "id": 2, "category": "Gum" },
-    { "id": 3, "category": "Chocolate" },
-    { "id": 4, "category": "Sodas" }
+    {
+      "id": 1,
+      "category": "Hard Candy"
+    },
+    {
+      "id": 2,
+      "category": "Gum"
+    },
+    {
+      "id": 3,
+      "category": "Chocolate"
+    },
+    {
+      "id": 4,
+      "category": "Sodas"
+    }
   ],
-  "purchases": [{}]
+  "purchases": [
+    {}
+  ]
 }
